@@ -82,7 +82,7 @@ const antibot = process.env.ANTIBOT || 'FALSE';
             const qmsg = (quoted.msg || quoted);
     const author = process.env.STICKER_AUTHOR ||'𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏';
     const packname = process.env.STICKER_PACKNAME || 'crown';
-const dev = process.env.DEV || '923195832822'
+const dev = process.env.DEV || '254797036779'
 
 const menu = process.env.MENU_TYPE || 'VIDEO';
  const DevDreaded = dev.split(",");
@@ -102,7 +102,7 @@ const admin = process.env.ADMIN_MSG || '𝐅𝐚𝐢𝐥𝐮𝐫𝐞!!, you are 
     const group = process.env.GROUP_ONLY_MSG || 'Is this a group chat?';
     const botAdmin = process.env.BOT_ADMIN_MSG || '𝐅**𝐤 𝐲𝐨𝐮 🦄𝐚𝐦 𝐚𝐧 𝐧𝐨𝐭 𝐚𝐧 𝐚𝐝𝐦𝐢𝐧'
     const NotOwner = process.env.NOT_OWNER_MSG || 'Lol you are not 𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏';
-const wapresence = process.env.WA_PRESENCE || 'typing';
+const wapresence = process.env.WA_PRESENCE || 'recording';
 const antilink = process.env.ANTILINK || 'TRUE';
 const antilinkall = process.env.ANTILINK_ALL || 'TRUE';
 
@@ -1905,10 +1905,10 @@ case "movie":
          let res = groups.map(v => v.id) 
          reply(` Broadcasting in ${res.length} Group Chat, in ${res.length * 1.5} seconds`) 
          for (let i of res) { 
-             let txt = `</ Dreaded Broadcast >\n\n🀄 Message: ${text}\n\nAuthor: ${pushname}` 
+             let txt = `</ 𝐂𝐑𝐎𝐖𝐍 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 >\n\n🀄 Message: ${text}\n\nAuthor: ${pushname}` 
              await client.sendMessage(i, { 
                  image: { 
-                     url: "https://telegra.ph/file/c75efecf7f0aef851fc02.jpg" 
+                     url: "https://i.imgur.com/F5RvGvB.jpeg" 
                  }, 
                  caption: `${txt}` 
              }) 
@@ -1923,7 +1923,7 @@ case "getvar":
      });  
      let baseUR = "/apps/" + appname;  
      let h9 = await heroku.get(baseUR + '/config-vars');  
-     let stoy = '*Below Are Heroku Variables For Dreaded:*\n\n';  
+     let stoy = '*Below Are Heroku Variables For Crown:*\n\n';  
      for ( vrt in h9) { // Added 'const' to declare 'vr' 
          stoy += vrt + '=' + h9[vrt] + '\n\n'; // Fixed variable name 'str' to 'sto' 
      }  
